@@ -46,11 +46,13 @@ filetype indent on
 set background=dark
 set clipboard=unnamedplus
 set completeopt=noinsert,menuone,noselect
+" Lagging on windows console
 "set cursorline
 set hidden
 set mouse=a
 set number
-set relativenumber
+" Lagging on windows console
+"set relativenumber
 set splitbelow splitright
 set title
 set ttimeoutlen=0
