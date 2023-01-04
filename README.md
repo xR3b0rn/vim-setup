@@ -4,3 +4,14 @@
 2. Install the plugin manager `Vundle` with `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 3. Copy `.vimrc` to `~/.vimrc`
 4. Open `vim` and execute `:PluginInstall`
+
+Step 1-2:
+```
+git clone https://github.com/vim/vim.git
+cd vim
+./configure --enable-pythoninterp
+make -j6 install
+cd ..
+rm -r vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
