@@ -7,11 +7,5 @@
 
 Step 1-2:
 ```
-git clone https://github.com/vim/vim.git
-cd vim
-./configure --enable-pythoninterp
-make -j6 install
-cd ..
-rm -r vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/vim/vim.git && cd vim && ./configure --enable-pythoninterp && make -j6 install && cd .. && rm -r vim && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
