@@ -6,7 +6,7 @@
 4. Copy `.vimrc` to `~/.vimrc`
 5. Open `vim` and execute `:PluginInstall`
 
-Step 1-2:
+Step 1-3:
 ```
 sudo apt-get install -y libncurses-dev && git clone https://github.com/vim/vim.git && cd vim && ./configure --enable-pythoninterp && sudo make -j6 install && cd .. && rm -r vim && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
