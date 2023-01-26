@@ -120,3 +120,6 @@ let g:airline#extensions#tabline#enabled = 1
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 set scrolloff=7
+
+" Enable folding
+setlocal foldmethod=syntax
