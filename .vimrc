@@ -123,3 +123,5 @@ set scrolloff=7
 
 " Enable folding
 setlocal foldmethod=syntax
+" Unfold everything by default
+set foldlevel=99
