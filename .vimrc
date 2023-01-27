@@ -122,6 +122,6 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 set scrolloff=7
 
 " Enable folding
-setlocal foldmethod=syntax
+set foldmethod=syntax
 " Unfold everything by default
 set foldlevel=99
