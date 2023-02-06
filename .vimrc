@@ -78,7 +78,6 @@ Plugin 'ryanoasis/vim-devicons'
 
 " Utilities
 Plugin 'sheerun/vim-polyglot'
-Plugin 'jiangmiao/auto-pairs'
 Plugin 'ap/vim-css-color'
 Plugin 'preservim/nerdtree'
 
