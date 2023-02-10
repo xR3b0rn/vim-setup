@@ -49,7 +49,7 @@ set completeopt=noinsert,menuone,noselect
 " Lagging on windows console
 "set cursorline
 set hidden
-set mouse=a
+" set mouse=a
 set number
 " Lagging on windows console
 "set relativenumber
@@ -93,8 +93,6 @@ Plugin 'godlygeek/tabular'
 Plugin 'tc50cal/vim-terminal'
 
 let g:airline#extensions#tabline#enabled = 1
-
-set mouse=a
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
