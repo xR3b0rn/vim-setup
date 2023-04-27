@@ -7,6 +7,11 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+Plugin 'prabirshrestha/asyncomplete.vim'
+Plugin 'prabirshrestha/asyncomplete-lsp.vim'
+imap <c-space> <Plug>(asyncomplete_force_refresh)
+Plugin 'mattn/vim-lsp-settings'
+Plugin 'prabirshrestha/vim-lsp'
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
