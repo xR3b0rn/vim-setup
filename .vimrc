@@ -7,6 +7,9 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+Plugin 'puremourning/vimspector'
+let g:vimspector_enable_mappings = 'HUMAN'
+
 Plugin 'prabirshrestha/asyncomplete.vim'
 Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 imap <c-space> <Plug>(asyncomplete_force_refresh)
