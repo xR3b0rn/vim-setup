@@ -1,7 +1,7 @@
 # vim-setup
 ## Installation
 ```
-git clone https://github.com/xR3b0rn/vim-setup.git && cp vim-setup/.vimrc ~/.vimrc && sudo rm -r vim-setup && sudo apt-get install -y libncurses-dev && git clone https://github.com/vim/vim.git && cd vim && ./configure --enable-pythoninterp && sudo make -j6 install && cd .. && sudo rm -r vim && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim -c "PluginInstall" -c "q!"
+git clone https://github.com/xR3b0rn/vim-setup.git && cp vim-setup/.vimrc ~/.vimrc && sudo rm -r vim-setup && sudo apt-get install -y libncurses-dev python3.10 && git clone https://github.com/vim/vim.git && cd vim && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt-get install -y python3.11 libpython3.11-dev && ./configure --enable-python3interp --with-python3-command=/usr/bin/python3.11 && sudo make -j6 install && cd .. && sudo rm -r vim && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim -c "PluginInstall" -c "q!" -c "q!"
 ```
 
 NOTE two things:
